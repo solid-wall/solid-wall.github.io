@@ -1,39 +1,39 @@
-/* Reset and base styles */
+/* Reset & base */
 body, html {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: black;    /* page background black */
-  color: white;               /* default text white */
+  background-color: black;   /* fallback if image fails */
+  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Hero Image */
+/* Hero Section */
 .hero-image {
   width: 100%;
-  height: 100vh;              /* full viewport height */
+  height: 100vh;            /* full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: black;    /* fallback background black */
-  background-image: url('../Images/IMG_0361.PNG'); /* optional hero image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: black;  /* ensures black if image not found */
 }
 
 .hero-image h1 {
   color: white;
   font-size: 3rem;
   padding: 0 20px;
+  text-shadow: 1px 1px 5px black; /* makes text readable on any image */
 }
 
 /* Footer */
 .footer {
   width: 100%;
-  background-color: black;    /* black footer */
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -51,10 +51,8 @@ body, html {
   margin: 0;
   color: white;
   font-size: 1.2rem;
-  text-decoration: none;     /* remove any underline */
 }
 
-/* Links hover effect */
 .footer-section a {
   text-decoration: none;
   color: white;
@@ -65,7 +63,7 @@ body, html {
   color: #f0a500;
 }
 
-/* Responsive text for mobile */
+/* Responsive adjustments */
 @media (max-width: 480px) {
   .hero-image h1 {
     font-size: 2rem;
