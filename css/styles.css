@@ -1,5 +1,5 @@
 body {
-  background-image: url("Images/photoplaying.JPG"); /* adjust path */
+  background-image: url("../Images/photoplaying.JPG"); /* adjust path */
   background-size: cover;        /* makes it fill the screen */
   background-position: center;   /* keeps it centered */
   background-repeat: no-repeat;  /* prevents tiling */
