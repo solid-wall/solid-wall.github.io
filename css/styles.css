@@ -1,4 +1,6 @@
 body {
-  background-color: black;
-  color: white;
+  background-image: url("Images/photo playing.JPG"); /* adjust path */
+  background-size: cover;        /* makes it fill the screen */
+  background-position: center;   /* keeps it centered */
+  background-repeat: no-repeat;  /* prevents tiling */
 }
