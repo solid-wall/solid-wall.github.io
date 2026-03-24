@@ -65,7 +65,7 @@ body, html {
 .footer-section h3 {
   margin: 0;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .footer-section a {
@@ -93,11 +93,14 @@ body, html {
 }
 
 .footer-section h3 {
-  font-weight: 800;        /* makes text bolder (try 700 if you want stronger) */
+  font-weight: 700;        /* makes text bolder (try 700 if you want stronger) */
   text-decoration: none;   /* ensures no underline */
 }
 
 /* Optional: remove underline on hover too */
 .footer-section:hover {
   text-decoration: none;
+}
+.footer h3 {
+  margin-top: 12px; /* adjust as needed */
 }
