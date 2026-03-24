@@ -88,3 +88,16 @@ body, html {
     font-size: 1rem;
   }
 }
+.footer-section {
+  text-decoration: none;   /* removes underline */
+}
+
+.footer-section h3 {
+  font-weight: 800;        /* makes text bolder (try 700 if you want stronger) */
+  text-decoration: none;   /* ensures no underline */
+}
+
+/* Optional: remove underline on hover too */
+.footer-section:hover {
+  text-decoration: none;
+}
