@@ -114,7 +114,7 @@ body, html {
 }
 
 .footer-section h3 {
-  font-weight: 700;        /* makes text bolder (try 700 if you want stronger) */
+  font-weight: 650;        /* makes text bolder (try 700 if you want stronger) */
   text-decoration: none;   /* ensures no underline */
 }
 
@@ -123,5 +123,5 @@ body, html {
   text-decoration: none;
 }
 .footer h3 {
-  margin-top: 12px; /* adjust as needed */
+  margin-top: 15px; /* adjust as needed */
 }
